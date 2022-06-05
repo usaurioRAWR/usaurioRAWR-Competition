@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<test>
+	<question id="Q1">
+		<wording>1- ¿Qué significa CSS?:</wording>
+		<choices>
+			<choice correct="no">Coded Style Sheets (Hojas de Estilo Codificadas)</choice>
+			<choice correct="no">Color Style Sheets (Hojas de Estilo de Color)</choice>
+			<choice correct="yes">Cascading Style Sheets (Hojas de Estilo en Cascada)</choice>
+			<choice correct="no">Code of Style Sheets (Código de Hojas de Estilo)</choice>
+		</choices>
+	</question>
+	<question id="Q2">
+		<wording>2- ¿Cómo podemos añadir un comentario en una hoja de estilo CSS?:</wording>
+		<choices>
+			<choice correct="yes">Entre los caracteres "/*" y "*/ ". Ej: /* esto es un comentario CSS */</choice>
+			<choice correct="no">No se puede</choice>
+			<choice correct="no">Entre las etiquetas "&lt; !--" y "-- &gt;". Ej: &lt; !-- Esto es un comentario CSS -- &gt;</choice>
+			<choice correct="no">Después de los caracteres "//". Ej: // Este es un comentario CSS</choice>
+		</choices>
+	</question>
+	<question id="Q3">
+		<wording>3- ¿En qué sección de la página HTML podemos definir una hoja de estilo interna CSS?:</wording>
+		<choices>
+			<choice correct="no">En la sección &lt; footer&gt; </choice>
+			<choice correct="yes">En la sección &lt; head &gt;</choice>
+			<choice correct="no">Se puede definir en cualquier sección de la página</choice>
+			<choice correct="no">En al sección &lt; body &gt;</choice>
+		</choices>
+	</question>
+	<question id="Q4">
+		<wording>4- En HTML existe el atributo ‘class’. En relación con los estilos CSS ¿para qué crees que sirve?:</wording>
+		<choices>
+			<choice correct="yes">Para aplicar unos estilos específicos (que se definen en una hoja CSS interna o externa) a los elementos que tenga la misma clase, es decir, el mismo valor en ese atributo.</choice>
+			<choice correct="no">Para indicar la clase de estilo que vamos a aplicar al elemento/etiqueta HTML que lleva ese atributo: en línea, hoja interna o externa CSS</choice>
+			<choice correct="no">Es específico para indicar el color de la fuente que queremos aplicar, Por ejemplo: p class="red" presentaría las letras en rojo de ese párrafo</choice>
+			<choice correct="no">No tiene que ver con los estilo. Realmente se utiliza para clasificar el tipo de enlace ('a') que estamos definiendo: vínculo interno o a una página en nuestro mismo dominio o a un sitio web externo</choice>
+		</choices>
+	</question>
+	<question id="Q5">
+		<wording>5- ¿Qué está mal en esta regla de estilo?:</wording>
+		<choices>
+			<choice correct="no">No se puede poner un '.' (punto) al inicio de una declaración (antes de la palabra 'cuadro)'</choice>
+			<choice correct="yes">Falta un ';' (punto y coma) al final de la declaración del estilo 'border'</choice>
+			<choice correct="no">Falta una ',' (coma) entre los dos valores de la propiedad padding (10px 5px)</choice>
+			<choice correct="no">A la propiedad border solo se le puede dar un valor y no 3 como aparece aquí: 1px, blue y dotted</choice>
+		</choices>
+	</question>
+	<question id="Q6">
+		<wording>6- Un modo directo de elegir el marcador de una lista sería empleando la propiedad::</wording>
+		<choices>
+			<choice correct="yes">list-style-type</choice>
+			<choice correct="no">list-type</choice>
+			<choice correct="no">list-point</choice>
+			<choice correct="no">list-boliche</choice>
+		</choices>
+	</question>
+	<question id="Q7">
+		<wording>7- ¿Cuál de los siguientes es el selector CSS que selecciona a todos los objetos con class=“nuevo” que están contenidos en un tabla?:</wording>
+		<choices>
+			<choice correct="no">table.nuevo</choice>
+			<choice correct="no">table #nuevo</choice>
+			<choice correct="no">table#nuevo</choice>
+			<choice correct="yes">table .nuevo</choice>
+		</choices>
+	</question>
+	<question id="Q8">
+		<wording>8- ¿Cuál de las siguiente reglas de estilo eliminan el marcador de los elementos de una lista?:</wording>
+		<choices>
+			<choice correct="no">ul li {list-style: none; }</choice>
+			<choice correct="no">ul {list-style: none; }</choice>
+			<choice correct="yes">ul {list-style-type: none; }</choice>
+			<choice correct="no">ul li {list-style-type: }</choice>
+		</choices>
+	</question>
+	<question id="Q9">
+		<wording>9- En el posicionamiento absoluto el origen de coordenadas dependerá de si el elemento a posicionar está contenido dentro de otro que ya está previamente posicionado absoluta o relativamente:</wording>
+		<choices>
+			<choice correct="yes">Verdadero</choice>
+			<choice correct="no">Falso</choice>
+			<choice correct="no">Verdadero, porque si no es asi la pagina se veria boca abajo</choice>
+			<choice correct="no">Falso, el posicionamiento absoluto no existe</choice>
+		</choices>
+	</question>
+	<question id="Q10">
+		<wording>10- Queremos realizar un documento web donde la fuente base de toda la página sea: de color negro, de tipo Arial, con un tamaño 0.9 veces la letra por defecto del navegador y un espaciado entre líneas de 1,4. ¿Cuál sería la regla CSS que consigue esto?:</wording>
+		<choices>
+			<choice correct="no">body { font: 0.9em/1.4 Arial, sans-serif; color: #; }</choice>
+			<choice correct="no">body { font: .9em/1.4 Arial; color: ; }</choice>
+			<choice correct="yes">body { color: #000; font: .9em/1.4 Arial; }</choice>
+			<choice correct="no">body { font: 0.9em/1.4 Arial, Helvetica, sans-serif; color: 000#; } </choice>
+		</choices>
+	</question>
+	<question id="Q11">
+		<wording>11- ¿Cual es el selector CSS que seleccionaría todos aquellos enlaces contenidos en un párrafo?:</wording>
+		<choices>
+			<choice correct="no">p#nuevo a hover</choice>
+			<choice correct="no">p#nuevo a:h0ver</choice>
+			<choice correct="no">p#nuevo a;hover</choice>
+			<choice correct="yes">p#nuevo a:hover</choice>
+		</choices>
+	</question>
+	<question id="Q12">
+		<wording>12- Con qué atributo le indicamos a una marca html, que emplee una determinada clase CSS?:</wording>
+		<choices>
+			<choice correct="no">Classes</choice>
+			<choice correct="no">clasificado</choice>
+			<choice correct="yes">class</choice>
+			<choice correct="no">clase</choice>
+		</choices>
+	</question>
+	<question id="Q13">
+		<wording>13- ¿Cual es el selector CSS que seleccionaría todos los párrafos contenidos en una tabla?:</wording>
+		<choices>
+			<choice correct="yes">table p</choice>
+			<choice correct="no">tabla p</choice>
+			<choice correct="no">table parrafo</choice>
+			<choice correct="no">tabla parrafo</choice>
+		</choices>
+	</question>
+	<question id="Q14">
+		<wording>14- Un modo directo de elegir el marcador de una lista sería empleando la propiedad::</wording>
+		<choices>
+			<choice correct="no">list-type</choice>
+			<choice correct="no">list-point</choice>
+			<choice correct="no">list-boliche</choice>
+			<choice correct="yes">list-style-type</choice>
+		</choices>
+	</question>
+	<question id="Q15">
+		<wording>15- ¿Cuál de las siguiente reglas de estilo eliminan el marcador de los elementos de una lista?:</wording>
+		<choices>
+			<choice correct="no">ul li {list-style: none; }</choice>
+			<choice correct="yes">ul {list-style-type: none; }</choice>
+			<choice correct="no">ul {list-style: none; }</choice>
+			<choice correct="yes">ul li {list-style-type: none; }</choice>
+		</choices>
+	</question>
+	<question id="Q16">
+		<wording>16- ¿El padding es el margen exterior del objeto?:</wording>
+		<choices>
+			<choice correct="yes">Verdadero</choice>
+			<choice correct="no">Falso</choice>
+			<choice correct="no">Falso, la etiqueta padding no existe</choice>
+			<choice correct="no">Ninguna de las respuestas es correcta</choice>
+		</choices>
+	</question>
+	<question id="Q17">
+		<wording>17- Escribe el selector CSS que seleccionaría aquellos hiperenlaces hijos directos de un párrafo y que estén contenidos en un contenedor que emplee la clase nueva:</wording>
+		<choices>
+			<choice correct="no">div.nueva</choice>
+			<choice correct="no">a > p div.nueva</choice>
+			<choice correct="no">a > div.nueva p</choice>
+			<choice correct="yes">div.nueva p > a</choice>
+		</choices>
+	</question>
+	<question id="Q18">
+		<wording>18- ¿Cual es el selector CSS que seleccionaría todos los objetos con id=nuevo y que estén contenidos en una tabla?:</wording>
+		<choices>
+			<choice correct="no">table nuevo</choice>
+			<choice correct="no">table .nuevo</choice>
+			<choice correct="yes">table #nuevo</choice>
+			<choice correct="no">#nuevo table</choice>
+		</choices>
+	</question>
+	<question id="Q19">
+		<wording>19- ¿Cual es el selector CSS que seleccionaría una tabla con id=nuevo que esté dentro de un contenedor?:</wording>
+		<choices>
+			<choice correct="yes">div table#nuevo</choice>
+			<choice correct="no">div nuevo#table</choice>
+			<choice correct="no">div tablenuevo</choice>
+			<choice correct="no">div table.nuevo</choice>
+		</choices>
+	</question>
+	<question id="Q20">
+		<wording>20- ¿Cuál de los siguientes es el selector CSS que selecciona a todos los objetos con class=“nuevo” que están contenidos en un tabla?:</wording>
+		<choices>
+			<choice correct="no">table nuevo</choice>
+			<choice correct="no">table#nuevo</choice>
+			<choice correct="no">table.nuevo</choice>
+			<choice correct="yes">table .nuevo</choice>
+		</choices>
+	</question>
+	<question id="Q21">
+		<wording>Test finalizado.</wording>
+		<choices>
+			<choice correct="no">Test finalizado.</choice>
+			<choice correct="no">Test finalizado.</choice>
+			<choice correct="no">Test finalizado.</choice>
+			<choice correct="no">Test finalizado.</choice>
+		</choices>
+	</question>
+</test>

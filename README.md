@@ -1,4 +1,4 @@
-# usaurioRAWR-Competition
-usaurioRAWR-Competition
+# usaurioRAWR-School
+usaurioRAWR/usaurioRAWR-School
 
-https://usauriorawr-competition.000webhostapp.com/
+https://usauriorawr-school.000webhostapp.com/
