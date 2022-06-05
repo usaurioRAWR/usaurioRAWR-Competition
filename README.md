@@ -1,2 +1,2 @@
-# usaurioRAWR-Contests
-usaurioRAWR-Contests
+# usaurioRAWR-Competition
+usaurioRAWR-Competition
