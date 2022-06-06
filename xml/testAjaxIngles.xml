@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+	<test>
+	<question id="Q1">
+		<wording>1- The object needed to create a connection through AJAX is:</wording>
+		<choices>
+			<choice correct="no">httpRequest</choice>
+			<choice correct="no">AJAXRequest</choice>
+			<choice correct="yes">XMLHttpRequest</choice>
+			<choice correct="no">XMLHTTPRequest</choice>
+		</choices>
+	</question>
+	<question id="Q2">
+		<wording>2- To indicate that an AJAX connection is synchronous or asynchronous:</wording>
+		<choices>
+			<choice correct="yes">We include a third parameter in the call to the connection's open() method</choice>
+			<choice correct="no">Add a third parameter to the createConnection() method of the AJAX connection</choice>
+			<choice correct="no">We add a third parameter to the send() method of the AJAX connection</choice>
+			<choice correct="no">We use the sendSynchronous or sendAsyncrhonous methods of the object that stores the connection</choice>
+		</choices>
+	</question>
+	<question id="Q3">
+		<wording>3- AJAX means:</wording>
+		<choices>
+			<choice correct="no">Automatic Java Auto-installed eXtension</choice>
+			<choice correct="no">Asynchronous Java and XML</choice>
+			<choice correct="yes">Asynchronous Javascript and XML</choice>
+			<choice correct="no">Automatic Javascript and XML</choice>
+		</choices>
+	</question>
+	<question id="Q4">
+		<wording>4- The type property of the object with which an AJAX call is made through jQuery:</wording>
+		<choices>
+			<choice correct="no">Allows you to indicate whether the connection is synchronous or asynchronous</choice>
+			<choice correct="no">Allows us to indicate the format of the data we want to obtain from the server</choice>
+			<choice correct="no">Allows you to indicate whether or not data is sent to the server</choice>
+			<choice correct="yes">Allows you to indicate whether to make a connection using the GET method or the POST method</choice>
+		</choices>
+	</question>
+	<question id="Q5">
+		<wording>5- The use of some framework (work environment or library) Javascript:</wording>
+		<choices>
+			<choice correct="no">Not a highly recommended option, especially since it causes us a lot of cross-browser compatibility issues</choice>
+			<choice correct="no">Does not affect the usability of our site in terms of cross-browser compatibility</choice>
+			<choice correct="yes">This is a highly recommended option, especially since it solves many cross-browser compatibility issues for us</choice>
+			<choice correct="no">Should be avoided if we want to create websites compatible with most browsers</choice>
+		</choices>
+	</question>
+	<question id="Q6">
+		<wording>6- If we use non-intrusive Javascript techniques:</wording>
+		<choices>
+			<choice correct="no">We will not be able to include any css tag in our code</choice>
+			<choice correct="yes">We will include our Javascript code in external files in which the event assignment will even be</choice>
+			<choice correct="no">We will include the Javascript code inside the CSS files to make the minimum number of inclusions in the HTML file</choice>
+			<choice correct="no">We will not be able to include any script tag in our code</choice>
+		</choices>
+	</question>
+	<question id="Q7">
+		<wording>7- The correct way to store information in JSON format in a Javascript variable is:</wording>
+		<choices>
+			<choice correct="no">var variable=eval( "+ this.responseText+ " );</choice>
+			<choice correct="no">var variable=this.responseText;</choice>
+			<choice correct="yes">var variable=eval( " ( "+ this.responseText+ " ) " );</choice>
+			<choice correct="no">var variable=this.responseXML;</choice>
+		</choices>
+	</question>
+	<question id="Q8">
+		<wording>8- All browsers use the XMLHttpRequest object to create AJAX connections</wording>
+		<choices>
+			<choice correct="no">True</choice>
+			<choice correct="yes">False</choice>
+			<choice correct="no">True, because XMLHttpRequest is an object to create AJAX connections</choice>
+			<choice correct="no">False, because XMLHttpRequest is not an object to create AJAX connections</choice>
+		</choices>
+	</question>
+	<question id="Q9">
+		<wording>9- By default, browsers do not allow connections to be made via AJAX to servers other than the one that sent us the web page. This is due to:</wording>
+		<choices>
+			<choice correct="yes">For security reasons: to avoid using Javascript to control pages located on other servers</choice>
+			<choice correct="no">For technical reasons: a browser would not know to connect to a different server</choice>
+			<choice correct="no">For security reasons: to avoid AJAX controlling pages located on other servers</choice>
+			<choice correct="no">For usability reasons: the user would have to type many URLs for the browser to load them</choice>
+		</choices>
+	</question>
+	<question id="Q10">
+		<wording>10- To open an asynchronous request,perform:</wording>
+		<choices>
+			<choice correct="no">request.open("GET", url,1);</choice>
+			<choice correct="no">request.open("GET", url, false);</choice>
+			<choice correct="yes">request.open("GET", url, true);</choice>
+			<choice correct="no">request.open("GET", url, 2);</choice>
+		</choices>
+	</question>
+	<question id="Q11">
+		<wording>11- The instruction that allows me to send the AJAX request is:</wording>
+		<choices>
+			<choice correct="no">request.send()</choice>
+			<choice correct="no">request.go()</choice>
+			<choice correct="no">request.main()</choice>
+			<choice correct="yes">request.main()</choice>
+		</choices>
+	</question>
+	<question id="Q12">
+		<wording>12- Select the concept of AJAX:</wording>
+		<choices>
+			<choice correct="no">AJAX is a web programming model</choice>
+			<choice correct="yes">AJAX is a web development technique for creating interactive applications that run on the client</choice>
+			<choice correct="no">AJAX is a prototype of desktop programming</choice>
+			<choice correct="no">AJAX is a computer programming system.</choice>
+		</choices>
+	</question>
+	<question id="Q13">
+		<wording>13- The command that allows me to create an Http Object in javascript is:</wording>
+		<choices>
+			<choice correct="yes">XMLHttpRequest</choice>
+			<choice correct="no">XMLHttpsRequest</choice>
+			<choice correct="no">HTMLRequest</choice>
+			<choice correct="no">XMLHtmlRequest</choice>
+		</choices>
+	</question>
+	<question id="Q14">
+		<wording>14- The number that is analyzed in readyState whose response is "the request has been sent" corresponds:</wording>
+		<choices>
+			<choice correct="no">0</choice>
+			<choice correct="no">1</choice>
+			<choice correct="yes">2</choice>
+			<choice correct="no">3</choice>
+		</choices>
+	</question>
+	<question id="Q15">
+		<wording>15- To send headers through requests in the background, what command is used?:</wording>
+		<choices>
+			<choice correct="no">request.setSendHeader("content-type","application/x-www-form-urlencoded")</choice>
+			<choice correct="yes">request.setRequestHeader("content-type","application/x-www-form-urlencoded")</choice>
+			<choice correct="no">request.setPostHeader("content-type","application/x-www-form-urlencoded")</choice>
+			<choice correct="no">request.setEndHeader("content-type","application/x-www-form-urlencoded")</choice>
+		</choices>
+	</question>
+	<question id="Q16">
+		<wording>16- AJAX is a technique to create fast AND dynamic pages:</wording>
+		<choices>
+			<choice correct="yes">True</choice>
+			<choice correct="no">False</choice>
+			<choice correct="no">True, replace HTML and CSS</choice>
+			<choice correct="no">False, it makes them slower and less dynamic</choice>
+		</choices>
+	</question>
+	<question id="Q17">
+		<wording>17- The instruction to control the changes in the transmission of information through AJAX is:</wording>
+		<choices>
+			<choice correct="no">request.onreadystateall</choice>
+			<choice correct="no">request.onreadystateget</choice>
+			<choice correct="no">request.onreadystatemix</choice>
+			<choice correct="yes">request.onreadystatechange</choice>
+		</choices>
+	</question>
+	<question id="Q18">
+		<wording>18- The response from request.status "Indicates that an internal error has occurred in the server when trying to respond to the request" corresponds to the number:</wording>
+		<choices>
+			<choice correct="no">pupil</choice>
+			<choice correct="yes">cornea</choice>
+			<choice correct="no">iris</choice>
+			<choice correct="no">retina</choice>
+		</choices>
+	</question>
+	<question id="Q19">
+		<wording>19- The response from request.status "Indicates that an internal error has occurred in the server when trying to respond to the request" corresponds to the number:</wording>
+		<choices>
+			<choice correct="no">200</choice>
+			<choice correct="no">403</choice>
+			<choice correct="no">404</choice>
+			<choice correct="yes">500</choice>
+		</choices>
+	</question>
+	<question id="Q20">
+		<wording>20- The number 3 of the readyState instruction corresponds to:</wording>
+		<choices>
+			<choice correct="no">Indicates that the object exists but has not been initialized yet</choice>
+			<choice correct="yes">A partial response to the request has been received</choice>
+			<choice correct="no">The object has been initialized after the open method call</choice>
+			<choice correct="no">A complete response has been received and the connection has been closed</choice>
+		</choices>
+	</question>
+	<question id="Q21">
+		<wording>Test finished.</wording>
+		<choices>
+			<choice correct="no">Test finished.</choice>
+			<choice correct="no">Test finished.</choice>
+			<choice correct="no">Test finished.</choice>
+			<choice correct="no">Test finished.</choice>
+		</choices>
+	</question>
+</test>
